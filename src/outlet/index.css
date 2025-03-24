@@ -1,0 +1,28 @@
+/* Scroll bar kengligi */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Skroll fon (faqat kichik nuqtacha shaklida) */
+::-webkit-scrollbar-track {
+  background: gainsboro ;
+  margin: 10px 0; 
+  border-radius: 10px; 
+}
+
+/* Harakatlanuvchi qismi (thumb) */
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 20px;
+  height: 5px !important ;
+}
+
+/* Hover qilganda thumb oq rangga o‘tadi */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
